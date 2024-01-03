@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
+    <title>Login</title>
+    <style>
+        body{
+            background-color: rgb(101, 73, 128);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            display: block;
+            margin: auto;
+            border-radius: 20px;
+            background-color: white;
+            width: 48vw;
+            height: 92vh;
+        }
+        #boximagem{
+            background-image: url(image\ login.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 48vw;
+            height: 35vh;
+        }
+        #boxlogin{
+            width: 48vw;
+            height: 50vh;
+        }
+        #boxlogin > h1{
+            text-align: center;
+            margin: 5px;
+        }
+        #boxlogin > p {
+            margin: 0px;
+            padding: 5px;
+            text-align: justify;
+        }
+        #email{
+            width: 44vw;
+            background-color: rgb(101, 73, 128);
+            border-radius: 8px;
+            height: 7vh;
+            margin: 10px;
+            position: relative;
+        }
+        #iconusuario{
+            color: white;
+            font-size: 40px;  
+            margin-top: 2px;
+            margin-left: 4px;
+        }
+        #keysenha{
+            color: white;
+            font-size: 40px;  
+            margin-top: 2px;
+            margin-left: 4px;
+        }
+        #ilog{
+            position: absolute;
+            left: 20%;
+            top: 10%;
+            background-color:  rgb(167, 226, 205);
+            width: 33vw;
+            height: 5vh;
+            margin-bottom: 20px;
+            border-radius: 7px;
+        }
+        #senha{
+            width: 44vw;
+            background-color: rgb(101, 73, 128);
+            border-radius: 8px;
+            height: 7vh;
+            margin: 10px;
+            position: relative;
+        }
+        #isenha{
+            position: absolute;
+            left: 20%;
+            top: 10%;
+            background-color:  rgb(167, 226, 205);
+            width: 33vw;
+            height: 5vh;
+            margin-bottom: 20px;
+            border-radius: 7px;
+        }
+        #entrar{
+            width: 44vw;
+            background-color: rgb(108, 170, 149);
+            border-radius: 7px;
+            height: 7vh;
+            border: none;
+            margin: 10px;
+            margin-top: 0px;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;
+        }
+        #esqsen{
+            width: 44vw;
+            background-color: white;
+            border-radius: 7px;
+            height: 7vh;
+            border: 2px solid  rgb(108, 170, 149);
+            margin: 10px;
+            margin-top: 0px;
+            color: rgb(51, 77, 68) ;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="boximagem">
+        </div>
+        <div id="boxlogin">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+            <div id="email">
+                <label for="iname"><span id="iconusuario" class="material-symbols-outlined">person</span></label>
+                <input type="name" name="login" id="ilog"><br>
+            </div>
+            <div id="senha">
+                <label for="isenha"><span id="keysenha" class="material-symbols-outlined">vpn_key</span></label>
+                <input type="password" name="senha" id="isenha"><br>
+            </div>
+            <div>
+                <input id="entrar" type="submit" value="Entrar"><br>
+                <input id="esqsen" type="submit" value="Esqueci a senha">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

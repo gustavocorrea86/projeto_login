@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main{
+        display: inline-block;
+        border-radius: 20px;
+        background-color: white;
+        border: 1px solid black;
+        width: 90vw;
+        height: 50vh;
+    }
+    
+}
