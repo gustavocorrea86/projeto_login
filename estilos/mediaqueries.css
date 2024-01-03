@@ -9,5 +9,12 @@
         width: 90vw;
         height: 50vh;
     }
+        #boximagem{
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 50vw;
+            height: 35vh;
+        }
+    }
     
-}
