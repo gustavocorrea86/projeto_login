@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/*
+Paleta de cores
+Verde: #49a09d
+Lilas: #5f2c82
+*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    #login{
+        width: 80vw;
+        height: 280px;
+    }
+    #imagem{
+        height: 100%;
+        width: 30%;
+        float: left;
+    }
+    #formulario{
+        width: 70%;
+        float: right;
+    }
+    #imail{
+        position: absolute;
+        left: 21%;
+        top: 11%;
+        width: 89.5%;
+        height: 38px;
+        border-radius: 10px;
+        transform: translate(-12%, -8%);
+    }
+    #isenha{
+        position: absolute;
+        left: 21%;
+        top: 11%;
+        width: 89.5%;
+        height: 38px;
+        border-radius: 10px;
+        transform: translate(-12%, -8%);
+    }
+    
+}
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    #login{
+        width: 900px;
+        height: 300px;
+    }
+    #formulario > h1{
+        font-size: 2em;
+    }
+    #formulario > p{
+        font-size: 1em;
+    }
+    #imagem{
+        float: right;
+        height: 100%;
+        width: 30%;
+    }
+    #formulario{
+        float: left;
+        width: 70%;
+    }
+    #imail{
+        position: absolute;
+        left: 19%;
+        top: 11%;
+        width: 92%;
+        height: 38px;
+        border-radius: 10px;
+        transform: translate(-12%, -8%);
+    }
+    #isenha{
+        position: absolute;
+        left: 19%;
+        top: 11%;
+        width: 92%;
+        height: 38px;
+        border-radius: 10px;
+        transform: translate(-12%, -8%);
+    }
+    
+}

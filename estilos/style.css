@@ -1,52 +1,138 @@
 @charset "UTF-8";
+/*
+Paleta de cores
+Verde: #49a09d
+Lilas: #5f2c82
+*/
 
- /*
-        Paleta de cores
-        Verde: #49a09d
-        Lilas: #5f2c82
-        */
-        *{
-            margin: 0px;
-            padding: 0px;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            box-sizing: border-box;
-        }
-        body, html{
-            background-color:  #5f2c82;
-            width: 100vw;
-            height: 100vh;
-        }
-        main{
-            position: relative;
-            width: 100vw;
-            height: 100vh;
-        }
-        #login{
-            display: block;
-            overflow: hidden;
-            border-radius: 7px;
-            background-color: white;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            width: 250px;
-            height: 500px;
-            transform: translate(-50%, -50%);
-        }
-        #imagem{
-            display: block;
-            height: 200px;
-            background-image: url(../image\ login.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        #formulario{
-            display: block;
-        }
-        #login > h1{
-            text-align: center;
-        }
-        #login > p{
-            padding: 10px;
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+    background-color: #5f2c82 ;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#login{
+    background-color: white;
+    width: 250px;
+    height: 520px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+}
+#imagem{
+    height: 200px;
+    background-image: url(../image\ login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#formulario > h1{
+    text-align: center;
+    
+}
+#formulario > p{
+    padding: 10px;
+    font-size: 0.8em;
+}
+.campo{
+    display: block;
+    margin: auto;
+    background-color: #8848b3;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    position: relative;
+}
+#imail{
+    position: absolute;
+    left: 29.5%;
+    top: 9%;
+    width: 80%;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #79d4d1;
+    border: 10px solid  #79d4d1;
+    transform: translate(-12%, -7%);
+}
+#imail:hover{
+    background-color: white;
+    border: 2px solid black
+}
+#isenha{
+    position: absolute;
+    left: 29.5%;
+    top: 9%;
+    width: 80%;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #79d4d1;
+    border: 10px solid  #79d4d1;
+    transform: translate(-12%, -8%);
+}
+#isenha:hover{
+    background-color: white;
+    border: 2px solid black
+}
+#icon_usu{
+   color: white;
+   margin: 5px;
+   font-size: 35px;
+}
+#icon_senha{
+    color: white;
+    margin: 5px;
+    font-size: 35px;
+}
+#entrar{
+    display: block;
+    margin: auto;
+    background-color: #49a09d;
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+}
+#entrar:hover{
+    background-color: #8adfdc;
+    color:#5f2c82;
+    border: 2px solid black;
+}
+#esq_senha{
+    display: block;
+    margin: auto;
+    background-color: white;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 5px;
+    color:#49a09d;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid #49a09d;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+}
+#esq_senha:hover{
+    text-decoration: underline;
+}
+#icon_mail{
+    font-size: 1em;
+}
 
-        }

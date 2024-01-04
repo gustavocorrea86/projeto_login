@@ -3,22 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/mediaqueries.css">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/medias.queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Login</title>
 </head>
 <body>
     <main>
         <section id="login">
             <div id="imagem">
-            
+
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="">
+                <form action="login.php" method="post">
+                    <div class="campo">
+                        <span id="icon_usu" class="material-symbols-outlined">person</span>
+                        <input type="email" name="email" id="imail">
+                        <label for="imail"></label>
+                    </div>
+                    <div class="campo">
+                        <span id="icon_senha" class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="senha" id="isenha">
+                        <label for="isenha"></label>
+                    </div>
 
+                    <input id="entrar" type="submit" value="Entrar">
 
+                    <a id="esq_senha" href="#">Esqueci a Senha<span id="icon_mail" class="material-symbols-outlined">mail</span></a>
+                    
                 </form>
             </div>
         </section>
