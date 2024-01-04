@@ -59,26 +59,26 @@ Lilas: #5f2c82
     #imagem{
         float: right;
         height: 100%;
-        width: 30%;
+        width: 50%;
     }
     #formulario{
         float: left;
-        width: 70%;
+        width: 50%;
     }
     #imail{
         position: absolute;
-        left: 19%;
+        left: 21%;
         top: 11%;
-        width: 92%;
+        width: 89.5%;
         height: 38px;
         border-radius: 10px;
         transform: translate(-12%, -8%);
     }
     #isenha{
         position: absolute;
-        left: 19%;
+        left: 21%;
         top: 11%;
-        width: 92%;
+        width: 89.5%;
         height: 38px;
         border-radius: 10px;
         transform: translate(-12%, -8%);
